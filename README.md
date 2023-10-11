@@ -28,7 +28,6 @@ Hello there! 👋 This is the repository for my portfolio website, a reflection 
    ```bash
    git clone https://github.com/MartaPre/mylab.git
 
-   Deployment
 
 This portfolio is deployed using Visual Studio Code. For the most updated version, visit the live website at (in progress)
 Feedback & Contributions
