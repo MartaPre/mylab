@@ -26,4 +26,15 @@ Hello there! 👋 This is the repository for my portfolio website, a reflection 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/mylab.git
+   git clone https://github.com/MartaPre/mylab.git
+
+   Deployment
+
+This portfolio is deployed using Visual Studio Code. For the most updated version, visit the live website at (in progress)
+Feedback & Contributions
+
+If you have any feedback, issues, or want to contribute to the project, please feel free to open an issue or send a pull request. All contributions are welcome!
+
+❤️ Made with love and React. Feel free to connect with me on LinkedIn.
+
+https://www.linkedin.com/in/martapretel/
