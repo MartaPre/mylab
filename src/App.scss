@@ -4,6 +4,9 @@ body {
   background: linear-gradient(to bottom right, #ff94f9, #a8ff64);
 }
 .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: 'Courier New', Courier, monospace;
   padding: 20px;
   background-color: #1e1e2a;
@@ -15,7 +18,7 @@ body {
 }
 
 .App-header {
-  background-color: #2f287f;
+  background-color: #4f48af;
   color: #a8ff64;
   padding: 20px 0;
   text-align: center;
@@ -69,9 +72,14 @@ a {
 
 .images-container {
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 75px;
+  left: 20px;
   z-index: 1;
+
+  &.right {
+    left: auto;
+    right: 20px;
+  }
 }
 
 .draggable-icon img {
@@ -93,6 +101,7 @@ a {
 }
 
 .image-button {
+  margin-bottom: 10px;
   position: relative;
   cursor: pointer;
   background: none;
@@ -112,22 +121,121 @@ a {
 }
 
 .image-button:hover img {
-  opacity: 0.7; /* gives a slightly faded effect when hovered */
+  opacity: 1;
 }
 
 .hover-text {
   display: none;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+  left: 100%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  margin-left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
   color: #a8ff64;
   padding: 5px;
   border-radius: 5px;
-  pointer-events: none; /* ensure the text doesn't interfere with button clicks */
+  pointer-events: none;
 }
 
 .image-button:hover .hover-text {
   display: block;
+}
+
+footer {
+  padding: 20px 0;
+  border-top: 3px solid #a8ff64;
+  background: linear-gradient(to top, #1f1875, #2f287f);
+  text-align: center;
+  margin-top: auto;
+}
+
+footer address {
+  font-style: normal;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  padding: 10px 20px;
+  border: 2px solid #a8ff64;
+  color: #a8ff64;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 0 10px;
+}
+
+.social-links a.linkedin-link:hover {
+  background-color: #0077b5;
+  color: #1e1e2a;
+}
+
+.social-links a.github-link:hover {
+  background-color: #333;
+  color: #a8ff64;
+}
+
+.hamburger-menu {
+  position: fixed;
+  left: 15px;
+  z-index: 2;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #a8ff64;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+}
+
+.hamburger-menu.right {
+  left: unset;
+  right: 20px;
+}
+
+.image-button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.images-container.right .image-button:not(:last-child) {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.menu-container {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-container.right {
+  left: unset;
+  right: 20px;
+  flex-direction: row-reverse;
+}
+.toggle-position {
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  color: #a8ff64;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.3s ease;
+  margin-left: 50px;
+
+  &:hover {
+    color: #ff94f9;
+  }
+}
+
+.images-container.right .hover-text {
+  left: auto;
+  right: 100%;
+  margin-right: 10px;
+  margin-left: 0;
 }

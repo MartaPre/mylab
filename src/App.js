@@ -1,22 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.scss';
-import AboutMe from './AboutMe'; 
+import AboutMe from './components/AboutMe'; 
 import Skills from './Skills';
-import Experience from './Experience';
-import Background from './Background';
-import HomePage from './HomePage';
+import Experience from './components/Experience';
+import Background from './components/Background';
+import HomePage from './components/HomePage';
+import Footer from './components/Footer';
 
 function App() {
   const imageContext = require.context('./assets', false, /\.jpg$/);
   const images = imageContext.keys().map(imageContext);
-
   const imageDetails = [
     { src: images[0], hoverText: "Homepage", link: "homepage" },
     { src: images[1], hoverText: "About me", link: "about" },
     { src: images[2], hoverText: "Skills & Technologies", link: "skills" },
     { src: images[3], hoverText: "Projects", link: "projects" },
-    { src: images[4], hoverText: "Educational Background", link: "background" }
+    { src: images[4], hoverText: "Educational Background", link: "background" },
+    { src: images[5], hoverText: "Footer", link: "footer" }
   ];
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuRight, setIsMenuRight] = useState(false);
 
   const navigateToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -27,18 +30,31 @@ function App() {
   
   return (
     <div className="App">
-      <div className="images-container">
-        {imageDetails.map((imgDetail, index) => (
-          <button 
-            key={index} 
-            className="image-button" 
-            onClick={() => navigateToSection(imgDetail.link)}
-          >
-            <img src={imgDetail.src} alt={`Lain ${index}`} />
-            <span className="hover-text">{imgDetail.hoverText}</span>
-          </button>
-        ))}
-      </div>
+    <div className="menu-container">
+    <button onClick={() => setIsMenuRight(!isMenuRight)} className={`toggle-position ${isMenuRight ? 'right' : ''}`}>
+      ↺
+    </button>
+      <button 
+        className={`hamburger-menu ${isMenuRight ? 'right' : ''}`}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+      >
+        ☰
+      </button>
+    </div>
+      {isMenuOpen && (
+        <div className={`images-container ${isMenuRight ? 'right' : ''}`}>
+          {imageDetails.map((imgDetail, index) => (
+            <button 
+              key={index} 
+              className="image-button" 
+              onClick={() => navigateToSection(imgDetail.link)}
+            >
+              <img src={imgDetail.src} alt={`Lain ${index}`} />
+              <span className="hover-text">{imgDetail.hoverText}</span>
+            </button>
+          ))}
+        </div>
+      )}
       <header id="homepage" className="App-header">
         <HomePage />
       </header>
@@ -56,6 +72,10 @@ function App() {
           <Background />
         </section>
       </main>
+      <footer id="footer">
+        <Footer />
+      </footer>
+
     </div>
   );
 }

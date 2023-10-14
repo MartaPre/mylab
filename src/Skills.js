@@ -5,15 +5,12 @@ function Skills() {
     <section className="cv-section">
       <h2>Skills</h2>
       <ul>
-        <li>React</li>
-        <li>CSS</li>
-        <li>TypeScript</li>
-        <li>Scrum</li>
-        <li>Agile</li>
-        <li>JavaScript</li>
-        <li>HTML</li>
-        <li>GIT</li>
-        <li>Bitbucket</li>
+        <li>Frontend Development: React, TypeScript, JavaScript, HTML, CSS, SASS</li>
+        <li>Agile Methodologies: Scrum, Agile</li>
+        <li>Version Control: GIT, Bitbucket</li>
+        <li>Web Development Tools: Redux Thunk, Material-UI, React Testing Library</li>
+        <li>Operating Systems: Linux (Fedora Ubuntu), Windows, iOs</li>
+        <li>Languages: Fluent in English, Spanish and Catalan</li>
       </ul>
     </section>
   );
