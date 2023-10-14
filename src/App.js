@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.scss';
 import AboutMe from './components/AboutMe'; 
-import Skills from './Skills';
+import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Background from './components/Background';
 import HomePage from './components/HomePage';
@@ -32,7 +32,7 @@ function App() {
     <div className="App">
     <div className="menu-container">
     <button onClick={() => setIsMenuRight(!isMenuRight)} className={`toggle-position ${isMenuRight ? 'right' : ''}`}>
-      ↺
+      {isMenuRight ? "MENU LEFT" : "MENU RIGHT"}
     </button>
       <button 
         className={`hamburger-menu ${isMenuRight ? 'right' : ''}`}

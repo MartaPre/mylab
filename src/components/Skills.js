@@ -9,7 +9,7 @@ function Skills() {
         <li>Agile Methodologies: Scrum, Agile</li>
         <li>Version Control: GIT, Bitbucket</li>
         <li>Web Development Tools: Redux Thunk, Material-UI, React Testing Library</li>
-        <li>Operating Systems: Linux (Fedora Ubuntu), Windows, iOs</li>
+        <li>Operating Systems: Linux (Fedora, Ubuntu), Windows, iOs</li>
         <li>Languages: Fluent in English, Spanish and Catalan</li>
       </ul>
     </section>

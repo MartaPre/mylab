@@ -1,0 +1,33 @@
+footer {
+    padding: 20px 0;
+    border-top: 3px solid #a8ff64;
+    background: linear-gradient(to top, #1f1875, #2f287f);
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  footer address {
+    font-style: normal;
+    line-height: 1.5;
+    margin-bottom: 20px;  /* Increase margin for more separation */
+  }
+  
+  .social-links a {
+    padding: 10px 20px;
+    border: 2px solid #a8ff64;
+    color: #a8ff64;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 0 10px;
+  }
+  
+  .social-links a.linkedin-link:hover {
+    background-color: #0077b5;
+    color: #1e1e2a;
+  }
+  
+  .social-links a.github-link:hover {
+    background-color: #333;
+    color: #a8ff64;
+  }
+  
