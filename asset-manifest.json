@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mylab/static/css/main.6b920d9a.chunk.css",
-    "main.js": "/mylab/static/js/main.224efb6a.chunk.js",
-    "main.js.map": "/mylab/static/js/main.224efb6a.chunk.js.map",
-    "runtime-main.js": "/mylab/static/js/runtime-main.cba89063.js",
-    "runtime-main.js.map": "/mylab/static/js/runtime-main.cba89063.js.map",
+    "main.css": "/mylab/static/css/main.33a7ec6f.chunk.css",
+    "main.js": "/mylab/static/js/main.b0f6667e.chunk.js",
+    "main.js.map": "/mylab/static/js/main.b0f6667e.chunk.js.map",
+    "runtime-main.js": "/mylab/static/js/runtime-main.f589a56f.js",
+    "runtime-main.js.map": "/mylab/static/js/runtime-main.f589a56f.js.map",
     "static/js/2.9e20096d.chunk.js": "/mylab/static/js/2.9e20096d.chunk.js",
     "static/js/2.9e20096d.chunk.js.map": "/mylab/static/js/2.9e20096d.chunk.js.map",
-    "static/js/3.c887b430.chunk.js": "/mylab/static/js/3.c887b430.chunk.js",
-    "static/js/3.c887b430.chunk.js.map": "/mylab/static/js/3.c887b430.chunk.js.map",
+    "static/js/3.9c49f0c2.chunk.js": "/mylab/static/js/3.9c49f0c2.chunk.js",
+    "static/js/3.9c49f0c2.chunk.js.map": "/mylab/static/js/3.9c49f0c2.chunk.js.map",
     "index.html": "/mylab/index.html",
-    "precache-manifest.e336fde8d784a62f96922edc6423f830.js": "/mylab/precache-manifest.e336fde8d784a62f96922edc6423f830.js",
+    "precache-manifest.cdce14dd206072cfca7a30bee7f1ae39.js": "/mylab/precache-manifest.cdce14dd206072cfca7a30bee7f1ae39.js",
     "service-worker.js": "/mylab/service-worker.js",
-    "static/css/main.6b920d9a.chunk.css.map": "/mylab/static/css/main.6b920d9a.chunk.css.map",
+    "static/css/main.33a7ec6f.chunk.css.map": "/mylab/static/css/main.33a7ec6f.chunk.css.map",
     "static/js/2.9e20096d.chunk.js.LICENSE.txt": "/mylab/static/js/2.9e20096d.chunk.js.LICENSE.txt",
     "static/media/lain-icon.jpg": "/mylab/static/media/lain-icon.f8cd8e48.jpg",
     "static/media/lainicon1.jpg": "/mylab/static/media/lainicon1.0748b438.jpg",
@@ -22,9 +22,9 @@
     "static/media/lainicon5.jpg": "/mylab/static/media/lainicon5.728167cb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cba89063.js",
+    "static/js/runtime-main.f589a56f.js",
     "static/js/2.9e20096d.chunk.js",
-    "static/css/main.6b920d9a.chunk.css",
-    "static/js/main.224efb6a.chunk.js"
+    "static/css/main.33a7ec6f.chunk.css",
+    "static/js/main.b0f6667e.chunk.js"
   ]
 }
