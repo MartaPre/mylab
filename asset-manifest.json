@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/mylab/static/css/main.0132acbb.chunk.css",
-    "main.js": "/mylab/static/js/main.ab3daaff.chunk.js",
-    "main.js.map": "/mylab/static/js/main.ab3daaff.chunk.js.map",
-    "runtime-main.js": "/mylab/static/js/runtime-main.338a5d16.js",
-    "runtime-main.js.map": "/mylab/static/js/runtime-main.338a5d16.js.map",
+    "main.css": "/mylab/static/css/main.6b920d9a.chunk.css",
+    "main.js": "/mylab/static/js/main.224efb6a.chunk.js",
+    "main.js.map": "/mylab/static/js/main.224efb6a.chunk.js.map",
+    "runtime-main.js": "/mylab/static/js/runtime-main.cba89063.js",
+    "runtime-main.js.map": "/mylab/static/js/runtime-main.cba89063.js.map",
     "static/js/2.9e20096d.chunk.js": "/mylab/static/js/2.9e20096d.chunk.js",
     "static/js/2.9e20096d.chunk.js.map": "/mylab/static/js/2.9e20096d.chunk.js.map",
-    "static/js/3.557593b2.chunk.js": "/mylab/static/js/3.557593b2.chunk.js",
-    "static/js/3.557593b2.chunk.js.map": "/mylab/static/js/3.557593b2.chunk.js.map",
+    "static/js/3.c887b430.chunk.js": "/mylab/static/js/3.c887b430.chunk.js",
+    "static/js/3.c887b430.chunk.js.map": "/mylab/static/js/3.c887b430.chunk.js.map",
     "index.html": "/mylab/index.html",
-    "precache-manifest.1c178800db3f032baec7d6fa5092413e.js": "/mylab/precache-manifest.1c178800db3f032baec7d6fa5092413e.js",
+    "precache-manifest.e336fde8d784a62f96922edc6423f830.js": "/mylab/precache-manifest.e336fde8d784a62f96922edc6423f830.js",
     "service-worker.js": "/mylab/service-worker.js",
-    "static/css/main.0132acbb.chunk.css.map": "/mylab/static/css/main.0132acbb.chunk.css.map",
+    "static/css/main.6b920d9a.chunk.css.map": "/mylab/static/css/main.6b920d9a.chunk.css.map",
     "static/js/2.9e20096d.chunk.js.LICENSE.txt": "/mylab/static/js/2.9e20096d.chunk.js.LICENSE.txt",
     "static/media/lain-icon.jpg": "/mylab/static/media/lain-icon.f8cd8e48.jpg",
     "static/media/lainicon1.jpg": "/mylab/static/media/lainicon1.0748b438.jpg",
     "static/media/lainicon2.jpg": "/mylab/static/media/lainicon2.415bc567.jpg",
     "static/media/lainicon3.jpg": "/mylab/static/media/lainicon3.7197f923.jpg",
-    "static/media/lainicon4.jpg": "/mylab/static/media/lainicon4.848d47bf.jpg"
+    "static/media/lainicon4.jpg": "/mylab/static/media/lainicon4.848d47bf.jpg",
+    "static/media/lainicon5.jpg": "/mylab/static/media/lainicon5.728167cb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.338a5d16.js",
+    "static/js/runtime-main.cba89063.js",
     "static/js/2.9e20096d.chunk.js",
-    "static/css/main.0132acbb.chunk.css",
-    "static/js/main.ab3daaff.chunk.js"
+    "static/css/main.6b920d9a.chunk.css",
+    "static/js/main.224efb6a.chunk.js"
   ]
 }
