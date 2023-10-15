@@ -6,7 +6,7 @@ function Background() {
       <h2>Educational Background</h2>
       
       <h3>Web Application Developer</h3>
-      <p className="date-info">IES Font de Sant Lluis – Valencia, Valencia - 2019-2021</p>
+      <p className="date-info">IES Font de Sant Lluis – Valencia, Valencia</p>
       <p>
         This comprehensive vocational training in web application development provided a deep dive into both front-end and back-end development, including:
       </p>
@@ -23,22 +23,22 @@ function Background() {
         <li>Soft skills training, including teamwork, project management, and agile methodologies like Scrum.</li>
       </ul>
       <h3>Assembly and repair of microcomputer systems</h3>
-      <p className="date-info">AITEX – UT Valenciaa – Valencia, Valencia - 2018-2019</p>
+      <p className="date-info">AITEX – UT Valenciaa – Valencia, Valencia</p>
       <p>
         Installation and configuration of base software and operating systems. Assembly of microcomputer equipment and components. 
         Installation of peripherals. Repair of equipment and hardware components.
       </p>
 
       <h3>Psychology</h3>
-      <p className="date-info">Universidad de Castellón - Castellón, Valencia - 2018-2019</p>
+      <p className="date-info">Universidad de Castellón - Castellón, Valencia</p>
       <p>Completed one year of psychology studies.</p>
 
       <h3>English Philology - English Studies</h3>
-      <p className="date-info">Universitat de València - Valencia, Valencia - 2016-2018</p>
+      <p className="date-info">Universitat de València - Valencia, Valencia</p>
       <p>Studied English as the primary language and German as a secondary language. 120 credits completed.</p>
 
       <h3>Bachellor</h3>
-      <p className="date-info">IES Tirant lo Blanc – Gandía, Valencia - 2014-2016</p>
+      <p className="date-info">IES Tirant lo Blanc – Gandía, Valencia</p>
       <p>Focused on literature with subjects including ancient Greek and Latin.</p>
     </section>
   );

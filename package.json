@@ -2,13 +2,14 @@
   "name": "mylab",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MartaPre.github.io/mylab",  
+  "homepage": "https://MartaPre.github.io/mylab",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
     "react-scripts": "^3.0.1",
     "sass": "^1.69.3",
     "web-vitals": "^2.1.4"

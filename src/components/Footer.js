@@ -5,8 +5,6 @@ function Footer() {
   return (
     <footer>
         <address>
-          Avinguda Doctor Peset Aleixandre nº5, 4º piso, puerta 8, València, Valencia 46009
-          <br />
           <a href="tel:722735321">722735321</a> | <a href="mailto:marpreal97@gmail.com">marpreal97@gmail.com</a>
         </address>
         <div className="social-links">
