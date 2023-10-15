@@ -8,7 +8,7 @@ import HomePage from './components/HomePage';
 import Footer from './components/Footer';
 
 function App() {
-  const imageContext = require.context('./assets', false, /\.jpg$/);
+  const imageContext = require.context('./assets', false, /\.png$/);
   const images = imageContext.keys().map(imageContext);
   const imageDetails = [
     { src: images[0], hoverText: "Homepage", link: "homepage" },
@@ -71,7 +71,7 @@ function App() {
                 className="image-button" 
                 onClick={() => navigateToSection(imgDetail.link)}
               >
-                <img src={imgDetail.src} alt={`Lain ${index}`} />
+                <img src={imgDetail.src} alt={`avatar ${index}`} />
                 <span className="hover-text">{imgDetail.hoverText}</span>
               </button>
             ))}

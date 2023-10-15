@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
 
 function HomePage() {
-  const imageContext = require.context('../assets', false, /\.jpg$/);
+  const imageContext = require.context('../assets', false, /^\.\/avatar.*\.png$/);
   const images = imageContext.keys().map(imageContext);
   const [currentImage, setCurrentImage] = React.useState(images[0]);
   const [currentIndex, setCurrentIndex] = React.useState(0);
@@ -33,7 +33,7 @@ function HomePage() {
       {isPopupVisible && (
         <div className="popup">
           <h2>Welcome to My Creation!</h2>
-          <p>This platform is intricately crafted, showcasing a harmonious blend of SASS, JavaScript, and a touch of retro style aesthetics. It's an embodiment of passion and creativity, inspired by lain images.</p>
+          <p>This platform is intricately crafted, showcasing a harmonious blend of SASS, JavaScript, and a touch of retro style aesthetics. It's an embodiment of passion and creativity.</p>
           
           <p>If you're intrigued by the technicalities behind this web, the complete source code is available. Dive into the <a className="custom-link" href="https://github.com/MartaPre/mylab" target="_blank" rel="noopener noreferrer">GitHub repository</a>. Feel free to use it as a blueprint for your projects or derive inspiration from it.</p>
         
