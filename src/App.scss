@@ -284,18 +284,3 @@
     color: #2c3e50;
   }
 
-  body {
-    cursor: none;
-  }
-
-  .custom-cursor {
-    width: 30px;
-    height: 30px;
-    background-image: url('./assets/robot.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    position: fixed;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-  }

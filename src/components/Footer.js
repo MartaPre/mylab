@@ -5,6 +5,7 @@ function Footer() {
   return (
     <footer>
         <address>
+          <p>Valencia, Spain</p>  
           <a href="tel:722735321">722735321</a> | <a href="mailto:marpreal97@gmail.com">marpreal97@gmail.com</a>
         </address>
         <div className="social-links">
