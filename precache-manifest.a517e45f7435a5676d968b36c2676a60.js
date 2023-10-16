@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a881a4e789a4ff18c67ea9c172e99c8",
+    "revision": "76a07034ae61fc1fb3a25eae11dca348",
     "url": "/mylab/index.html"
   },
   {
-    "revision": "401221f80f40b7ccd773",
-    "url": "/mylab/static/css/main.a007d6b7.chunk.css"
+    "revision": "c2eddee7ecb0d8fe4a04",
+    "url": "/mylab/static/css/main.6f8a9d6b.chunk.css"
   },
   {
     "revision": "b8ec0d2ccded3569f43c",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mylab/static/js/3.020d4a98.chunk.js"
   },
   {
-    "revision": "401221f80f40b7ccd773",
-    "url": "/mylab/static/js/main.c6f765fc.chunk.js"
+    "revision": "c2eddee7ecb0d8fe4a04",
+    "url": "/mylab/static/js/main.5825d3ed.chunk.js"
   },
   {
     "revision": "e79fed5b65ef6a120813",
@@ -46,9 +46,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6d5eb9aca8ad3ed5b140e35177cd6b7e",
     "url": "/mylab/static/media/6.6d5eb9ac.png"
-  },
-  {
-    "revision": "dc9cfe76df8b860c5b87cc9a6279123d",
-    "url": "/mylab/static/media/robot.dc9cfe76.svg"
   }
 ]);
