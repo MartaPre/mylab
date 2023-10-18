@@ -62,10 +62,12 @@ function App() {
               ))}
             </div>
           )}
-          <HomePage 
+ 
+          <section id="homepage" className="cv-section">
+            <HomePage 
             showDevMode={showDevMode} 
             setShowDevMode={setShowDevMode} 
-          />        
+          />              </section>     
           <main>
             <section id="about" className="cv-section">
               <AboutMe />
