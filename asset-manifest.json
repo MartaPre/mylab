@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/mylab/static/css/main.6f8a9d6b.chunk.css",
-    "main.js": "/mylab/static/js/main.5825d3ed.chunk.js",
-    "main.js.map": "/mylab/static/js/main.5825d3ed.chunk.js.map",
-    "runtime-main.js": "/mylab/static/js/runtime-main.ea417009.js",
-    "runtime-main.js.map": "/mylab/static/js/runtime-main.ea417009.js.map",
-    "static/js/2.8b31e595.chunk.js": "/mylab/static/js/2.8b31e595.chunk.js",
-    "static/js/2.8b31e595.chunk.js.map": "/mylab/static/js/2.8b31e595.chunk.js.map",
-    "static/js/3.020d4a98.chunk.js": "/mylab/static/js/3.020d4a98.chunk.js",
-    "static/js/3.020d4a98.chunk.js.map": "/mylab/static/js/3.020d4a98.chunk.js.map",
+    "main.css": "/mylab/static/css/main.7d398bed.chunk.css",
+    "main.js": "/mylab/static/js/main.fb2af0bb.chunk.js",
+    "main.js.map": "/mylab/static/js/main.fb2af0bb.chunk.js.map",
+    "runtime-main.js": "/mylab/static/js/runtime-main.c5848c63.js",
+    "runtime-main.js.map": "/mylab/static/js/runtime-main.c5848c63.js.map",
+    "static/js/2.fdd3ce74.chunk.js": "/mylab/static/js/2.fdd3ce74.chunk.js",
+    "static/js/2.fdd3ce74.chunk.js.map": "/mylab/static/js/2.fdd3ce74.chunk.js.map",
+    "static/js/3.dc2688fd.chunk.js": "/mylab/static/js/3.dc2688fd.chunk.js",
+    "static/js/3.dc2688fd.chunk.js.map": "/mylab/static/js/3.dc2688fd.chunk.js.map",
     "index.html": "/mylab/index.html",
-    "precache-manifest.a517e45f7435a5676d968b36c2676a60.js": "/mylab/precache-manifest.a517e45f7435a5676d968b36c2676a60.js",
+    "precache-manifest.90b566f2c5d41ba9b53ef291df6f47a0.js": "/mylab/precache-manifest.90b566f2c5d41ba9b53ef291df6f47a0.js",
     "service-worker.js": "/mylab/service-worker.js",
-    "static/css/main.6f8a9d6b.chunk.css.map": "/mylab/static/css/main.6f8a9d6b.chunk.css.map",
-    "static/js/2.8b31e595.chunk.js.LICENSE.txt": "/mylab/static/js/2.8b31e595.chunk.js.LICENSE.txt",
+    "static/css/main.7d398bed.chunk.css.map": "/mylab/static/css/main.7d398bed.chunk.css.map",
+    "static/js/2.fdd3ce74.chunk.js.LICENSE.txt": "/mylab/static/js/2.fdd3ce74.chunk.js.LICENSE.txt",
     "static/media/1.png": "/mylab/static/media/1.46b06f62.png",
     "static/media/3.png": "/mylab/static/media/3.6a619a67.png",
     "static/media/4.png": "/mylab/static/media/4.6b0dc15d.png",
     "static/media/5.png": "/mylab/static/media/5.5f687dfb.png",
-    "static/media/6.png": "/mylab/static/media/6.6d5eb9ac.png"
+    "static/media/6.png": "/mylab/static/media/6.6d5eb9ac.png",
+    "static/media/moon.png": "/mylab/static/media/moon.0e841430.png",
+    "static/media/sun.png": "/mylab/static/media/sun.4701d971.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ea417009.js",
-    "static/js/2.8b31e595.chunk.js",
-    "static/css/main.6f8a9d6b.chunk.css",
-    "static/js/main.5825d3ed.chunk.js"
+    "static/js/runtime-main.c5848c63.js",
+    "static/js/2.fdd3ce74.chunk.js",
+    "static/css/main.7d398bed.chunk.css",
+    "static/js/main.fb2af0bb.chunk.js"
   ]
 }
