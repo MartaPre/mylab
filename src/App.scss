@@ -1,101 +1,107 @@
-  body {
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to bottom right, #ff94f9, #a8ff64);
-  }
-  .App {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 20px;
-    background-color: #1e1e2a;
-    color: #a8ff64;
-    max-width: 900px; 
-    margin: 0 auto;
-    border: 3px solid #a8ff64;
-    box-shadow: 0 0 15px #a8ff64;
-  }
+body.light, body.dark {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.3s ease;
+}
 
-  .App-header {
-    background-color: #4f48af;
-    color: #a8ff64;
-    padding: 20px 0;
-    text-align: center;
-    border-bottom: 5px solid #ff94f9;
+body.light {
+  background: linear-gradient(to bottom right, #ff94f9, #4f48af);
+}
 
-    h1, h2 {
-      margin: 0;
-      font-size: 24px; 
-    }
+body.dark {
+  background: linear-gradient(to bottom right, #1e1e2a, #3c3859);
+  color: #a8ff64;
+}
 
-    h2 {
-      margin-top: 10px;
-      color: #ff94f9;
-    }
-  }
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  background-color: #1e1e2a;
+  color: #a8ff64;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 3px solid #a8ff64;
+  box-shadow: 0 0 15px #a8ff64;
+}
 
-  .cv-section {
-    margin-bottom: 20px;
-    border-left: 3px dashed #a8ff64;
-    padding-left: 15px;
+.cv-section {
+  margin-bottom: 20px;
+  border-left: 3px dashed #a8ff64;
+  padding-left: 15px;
 
-    h2 {
+  h2 {
       font-size: 24px;
       font-weight: bold;
       color: #ff94f9;
       border-bottom: 3px solid #a8ff64;
       padding-bottom: 15px;
-    }
+  }
 
-    h3 {
+  h3 {
       font-size: 18px;
       color: #a8ff64;
       border-bottom: 1px solid #ff94f9;
       padding-bottom: 8px;
-    }
   }
+}
 
-  address, p {
-    font-size: 14px;
-    color: #ff94f9;
-  }
+address, p {
+  font-size: 14px;
+  color: #ff94f9;
+}
 
-  ul {
-    list-style-type: square;
+ul {
+  list-style-type: square;
 
-    li {
+  li {
       color: #a8ff64;
-    }
   }
+}
 
-  a {
-    color: #ff94f9;
-    text-decoration: none;
-    &:hover {
+a {
+  color: #ff94f9;
+  text-decoration: none;
+
+  &:hover {
       text-decoration: underline;
       color: #a8ff64;
-    }
   }
+}
 
-  .images-container {
-    position: fixed;
-    top: 75px;
-    left: 20px;
-    z-index: 1;
+.images-container {
+  position: fixed;
+  top: 75px;
+  left: 20px;
+  z-index: 1;
 
-    &.right {
+  &.right {
       left: auto;
       right: 20px;
-    }
+      margin-left: 10px;
   }
 
-  .draggable-icon img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    margin-bottom: 10px;
+  .hover-text {
+      display: none;
+      position: absolute;
+      top: 50%;
+      white-space: nowrap;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #a8ff64;
+      padding: 5px;
+      border-radius: 5px;
+      pointer-events: none;
+
+      &.right {
+          left: auto;
+          right: 100%;
+          margin-right: 10px;
+      }
   }
+}
 
   .date-info {
     font-size: 16px;
@@ -222,65 +228,3 @@
     margin-right: 10px;
     margin-left: 0;
   }
-
-  .discover-button {
-    background-color: #4f48af;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    color: #a8ff64;
-    font-size: 16px;
-    margin-top: 20px;
-    transition: transform 0.3s ease;
-    animation: upDown 1s infinite alternate;
-
-    &:hover {
-      background-color: #a8ff64;
-      color: #1e1e2a;
-    }
-  }
-
-  .lens-icon {
-    margin-right: 8px;
-    font-size: 24px;
-  }
-
-  @keyframes upDown {
-    from {
-      transform: translateY(0);
-    }
-    to {
-      transform: translateY(-10px);
-    }
-  }
-
-  .popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #1e1e2a;
-    padding: 20px;
-    border: 2px solid #a8ff64;
-    box-shadow: 0px 0px 15px #a8ff64;
-    z-index: 10;
-    color: #a8ff64;
-    max-width: 80%;
-    text-align: center;
-  }
-
-  .custom-link {
-    color: #3498db; 
-    text-decoration: underline;
-    cursor: pointer;
-    transition: color 0.3s ease;
-
-  }
-
-  .custom-link:hover {
-    color: #2c3e50;
-  }
-

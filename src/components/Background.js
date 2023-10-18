@@ -30,7 +30,7 @@ function Background() {
       </p>
 
       <h3>Psychology</h3>
-      <p className="date-info">Universidad de Castellón - Castellón, Valencia</p>
+      <p className="date-info">Universitat de Castellón - Castellón, Valencia</p>
       <p>Completed one year of psychology studies.</p>
 
       <h3>English Philology - English Studies</h3>

@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.scss';
 import AboutMe from './components/AboutMe'; 
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Background from './components/Background';
-import HomePage from './components/HomePage';
+import HomePage from './components/HomePage/HomePage';
 import Footer from './components/Footer';
+import ThemeContext from './ThemeContext';
 
 function App() {
   const imageContext = require.context('./assets', false, /\.png$/);
@@ -20,6 +21,8 @@ function App() {
   ];
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuRight, setIsMenuRight] = useState(false);
+  const [showDevMode, setShowDevMode] = useState(false);
+  const [theme, setTheme] = useState('light');
 
   const navigateToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -27,78 +30,62 @@ function App() {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
+  useEffect(() => {
+      document.body.className = theme;
+  }, [theme]);
 
-  React.useEffect(() => {
-    const customCursor = document.getElementById('customCursor');
-
-    window.addEventListener('mousemove', (event) => {
-        customCursor.setAttribute("style", "top: " + (event.pageY) + "px; left: " + (event.pageX) + "px;");
-    });
-
-    window.addEventListener('mouseover', (event) => {
-        if (event.target.tagName === 'A' || event.target.className.includes('custom-link')) {
-            customCursor.classList.add('hover-link');
-        } else {
-            customCursor.classList.remove('hover-link');
-        }
-    });
-
-    return () => {
-        window.removeEventListener('mousemove', this);
-        window.removeEventListener('mouseover', this);
-    }
-}, []);
-  
   return (
-    <div className="App">
-      <div className="custom-cursor" id="customCursor"></div>
-      <div className="menu-container">
-      <button onClick={() => setIsMenuRight(!isMenuRight)} className={`toggle-position ${isMenuRight ? 'right' : ''}`}>
-        {isMenuRight ? "MENU LEFT" : "MENU RIGHT"}
-      </button>
-        <button 
-          className={`hamburger-menu ${isMenuRight ? 'right' : ''}`}
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
-          ☰
+    <ThemeContext.Provider value={{ theme, setTheme }}>      
+      <div className="App">
+        <div className="menu-container">
+        <button onClick={() => setIsMenuRight(!isMenuRight)} className={`toggle-position ${isMenuRight ? 'right' : ''}`}>
+          {isMenuRight ? "MENU LEFT" : "MENU RIGHT"}
         </button>
-      </div>
-        {isMenuOpen && (
-          <div className={`images-container ${isMenuRight ? 'right' : ''}`}>
-            {imageDetails.map((imgDetail, index) => (
-              <button 
-                key={index} 
-                className="image-button" 
-                onClick={() => navigateToSection(imgDetail.link)}
-              >
-                <img src={imgDetail.src} alt={`avatar ${index}`} />
-                <span className="hover-text">{imgDetail.hoverText}</span>
-              </button>
-            ))}
-          </div>
-        )}
-        <header id="homepage" className="App-header">
-          <HomePage />
-        </header>
-        <main>
-          <section id="about" className="cv-section">
-            <AboutMe />
-          </section>
-          <section id="skills" className="cv-section">
-            <Skills />
-          </section>
-          <section id="projects" className="cv-section">
-            <Experience />
-          </section>
-          <section id="background" className="cv-section">
-            <Background />
-          </section>
-        </main>
-        <footer id="footer">
-          <Footer />
-        </footer>
+          <button 
+            className={`hamburger-menu ${isMenuRight ? 'right' : ''}`}
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            ☰
+          </button>
+        </div>
+          {isMenuOpen && (
+            <div className={`images-container ${isMenuRight ? 'right' : ''}`}>
+              {imageDetails.map((imgDetail, index) => (
+                <button 
+                  key={index} 
+                  className="image-button" 
+                  onClick={() => navigateToSection(imgDetail.link)}
+                >
+                  <img src={imgDetail.src} alt={`avatar ${index}`} />
+                  <span className="hover-text">{imgDetail.hoverText}</span>
+                </button>
+              ))}
+            </div>
+          )}
+          <HomePage 
+            showDevMode={showDevMode} 
+            setShowDevMode={setShowDevMode} 
+          />        
+          <main>
+            <section id="about" className="cv-section">
+              <AboutMe />
+            </section>
+            <section id="skills" className="cv-section">
+              <Skills />
+            </section>
+            <section id="projects" className="cv-section">
+              <Experience />
+            </section>
+            <section id="background" className="cv-section">
+              <Background />
+            </section>
+          </main>
+          <footer id="footer">
+            <Footer />
+          </footer>
 
-    </div>
+      </div>
+    </ThemeContext.Provider>
   );
 }
 
