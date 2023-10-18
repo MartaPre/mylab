@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mylab/static/css/main.7d398bed.chunk.css",
-    "main.js": "/mylab/static/js/main.fb2af0bb.chunk.js",
-    "main.js.map": "/mylab/static/js/main.fb2af0bb.chunk.js.map",
+    "main.css": "/mylab/static/css/main.bc7f93b3.chunk.css",
+    "main.js": "/mylab/static/js/main.ede4ec2b.chunk.js",
+    "main.js.map": "/mylab/static/js/main.ede4ec2b.chunk.js.map",
     "runtime-main.js": "/mylab/static/js/runtime-main.c5848c63.js",
     "runtime-main.js.map": "/mylab/static/js/runtime-main.c5848c63.js.map",
     "static/js/2.fdd3ce74.chunk.js": "/mylab/static/js/2.fdd3ce74.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.dc2688fd.chunk.js": "/mylab/static/js/3.dc2688fd.chunk.js",
     "static/js/3.dc2688fd.chunk.js.map": "/mylab/static/js/3.dc2688fd.chunk.js.map",
     "index.html": "/mylab/index.html",
-    "precache-manifest.90b566f2c5d41ba9b53ef291df6f47a0.js": "/mylab/precache-manifest.90b566f2c5d41ba9b53ef291df6f47a0.js",
+    "precache-manifest.ea70a85088d8b96fceea7aecdd372d53.js": "/mylab/precache-manifest.ea70a85088d8b96fceea7aecdd372d53.js",
     "service-worker.js": "/mylab/service-worker.js",
-    "static/css/main.7d398bed.chunk.css.map": "/mylab/static/css/main.7d398bed.chunk.css.map",
+    "static/css/main.bc7f93b3.chunk.css.map": "/mylab/static/css/main.bc7f93b3.chunk.css.map",
     "static/js/2.fdd3ce74.chunk.js.LICENSE.txt": "/mylab/static/js/2.fdd3ce74.chunk.js.LICENSE.txt",
     "static/media/1.png": "/mylab/static/media/1.46b06f62.png",
     "static/media/3.png": "/mylab/static/media/3.6a619a67.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.c5848c63.js",
     "static/js/2.fdd3ce74.chunk.js",
-    "static/css/main.7d398bed.chunk.css",
-    "static/js/main.fb2af0bb.chunk.js"
+    "static/css/main.bc7f93b3.chunk.css",
+    "static/js/main.ede4ec2b.chunk.js"
   ]
 }
