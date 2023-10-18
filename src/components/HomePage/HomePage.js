@@ -34,16 +34,19 @@ import ThemeContext from '../../ThemeContext';
         </button>
         {showDevMode && (
           <div className="popup">
-            <h2>Developer Mode</h2>
-            <p>Choose options to customize the project:</p>
-            <div className="theme-selector">
-                <button className="theme-btn light-btn" onClick={() => setTheme('light')}>
-                    <img src={sunIcon} alt="Sun" className="theme-icon" />
-                </button>
-                <button className="theme-btn dark-btn" onClick={() => setTheme('dark')}>
-                    <img src={moonIcon} alt="Moon" className="theme-icon" />
-                </button>
-            </div>
+          <h2>Developer Mode</h2>
+          <p>Choose options to customize the project:</p>
+          <div className="theme-section">
+              <span className="theme-description">Alternate to light and dark mode:</span>
+              <div className="theme-selector">
+                  <button className="theme-btn light-btn" onClick={() => setTheme('light')}>
+                      <img src={sunIcon} alt="Sun" className="theme-icon" />
+                  </button>
+                  <button className="theme-btn dark-btn" onClick={() => setTheme('dark')}>
+                      <img src={moonIcon} alt="Moon" className="theme-icon" />
+                  </button>
+              </div>
+          </div>
             <span className="close-btn" onClick={() => setShowDevMode(false)}>&times;</span>          </div>
         )}
         <div className="draggable-icon">  
