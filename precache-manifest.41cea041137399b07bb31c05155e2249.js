@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a6b12b2e259c870e89910a56ee8d127",
+    "revision": "2565bde38bd4a31ec08c540e174c4db3",
     "url": "/mylab/index.html"
   },
   {
-    "revision": "282e8d536bc78d0a7d57",
+    "revision": "e2402f54013c50065d03",
     "url": "/mylab/static/css/main.bc7f93b3.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mylab/static/js/3.dc2688fd.chunk.js"
   },
   {
-    "revision": "282e8d536bc78d0a7d57",
-    "url": "/mylab/static/js/main.1ac0db87.chunk.js"
+    "revision": "e2402f54013c50065d03",
+    "url": "/mylab/static/js/main.faece2d0.chunk.js"
   },
   {
     "revision": "ef4c53c15084afaff219",
