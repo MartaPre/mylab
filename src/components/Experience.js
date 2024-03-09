@@ -8,13 +8,14 @@ function Experience() {
       <h3>Frontend developer - Capgemini, Client Openbank</h3>
       <p className="date-info">Valencia, Valencia - 11/2023 to Current</p>
       <p>
-        Member of Openbank Cobranded WEB team.
+        Member of Openbank Cobranded WEB team. 
         <br />
         Environment: Amazon Web Services (AWS)
         <br />
         Technologies: TypeScript, React.
         <br />
-        Project version controller with GIT, QuickSilver, Bamboo & Bitbucket.
+        Project version controller with GIT, QuickSilver, Bamboo & Bitbucket. Development of new functionalities of a web applications 
+        and creations of components in our storybook storybook.
       </p>
       
       <h3>Frontend developer - Sopra Steria, Client BBVA</h3>
